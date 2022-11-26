@@ -3,7 +3,7 @@
  * @author ClaytonTDM
  * @authorId 838197580462293042
  * @version 1.0.0
- * @description Based on DevilBro's Read All Notifications plugin.
+ * @description Based on DevilBro's Read All Notifications plugin. Requires BDFDB to be installed.
  * @donate https://clickette.link/donate
  */
 module.exports = (_ => {
