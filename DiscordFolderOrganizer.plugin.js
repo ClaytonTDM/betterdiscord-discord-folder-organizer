@@ -10,7 +10,6 @@
 
         function fixFolders() {
             var buttons = document.getElementsByClassName("folderIconWrapper-1oRIZr");
-            if (haveNotPressed) {
             for(var i = 0; i < buttons.length; i++){
                 buttons[i].click();
             }
@@ -21,7 +20,7 @@
             BdApi.showToast("Folders Organized", {
                 type: "success",
             })
-        }}
+        }
             
             // This part adds our button
             const myButton = document.createElement("button");
